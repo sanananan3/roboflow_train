@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['traffic-light']
+
+roboflow:
+  workspace: 2425wintercoop
+  project: 25-traffic-light
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/2425wintercoop/25-traffic-light/dataset/2

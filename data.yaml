@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['center', 'left', 'right']
+
+roboflow:
+  workspace: 2425wintercoop
+  project: 25-lane-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/2425wintercoop/25-lane-detection/dataset/1
